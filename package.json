@@ -1,0 +1,25 @@
+{
+  "name": "gradient-background-starter",
+  "version": "1.0.0",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build:dev": "parcel build",
+    "build:prod": "parcel build --no-source-maps",
+    "check": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-glsl": "^2.8.1",
+    "@types/three": "^0.146.0",
+    "parcel": "^2.8.1"
+  },
+  "dependencies": {
+    "lil-gui": "^0.17.0",
+    "three": "^0.147.0"
+  },
+  "main": "index.js",
+  "description": ""
+}
